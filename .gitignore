@@ -161,3 +161,6 @@ token.pickle
 # 生成されたプレゼンテーションファイル
 *.pptx
 *.pdf
+
+# 原稿フォルダ
+markdown/
