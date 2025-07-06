@@ -32,7 +32,7 @@ if ! command -v marp &> /dev/null; then
     exit 1
 fi
 
-marp "$MARKDOWN_FILE" --pptx-editable -o "$PPTX_FILE"
+marp "$MARKDOWN_FILE" --pptx-editable -o "$PPTX_FILE" --allow-local-files
 echo "✅ PowerPoint created: $PPTX_FILE"
 
 # Step 2: Google Slides アップロード
